@@ -2,7 +2,10 @@
   "name": "workspace",
   "version": "1.0.0",
   "description": "",
-  "main": "main_test.js",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "dependencies": {
     "chai": "^3.5.0"
   },
