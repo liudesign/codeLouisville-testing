@@ -13,7 +13,7 @@ function validateLocation (player, coordinates) {
   }
 }
 
-function validateLocations (player, locations) {
+function validateLocations (player, locations)  
   var validated = locations.map(function (location) {
     return validateLocation(player, location);
   });
